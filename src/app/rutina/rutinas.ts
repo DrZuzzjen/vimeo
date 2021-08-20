@@ -1,0 +1,349 @@
+
+/* interface Rutinarias{
+  [index: number]:{
+  id?: number;
+  zona?:string;
+  numero?: number;
+  modelo?: string;
+  codigo?: string;
+}
+} */
+
+export const rutinas = [
+    {
+      "id": 1,
+      "zona": "Calentamiento",
+      "numero": 1,
+      "modelo": "Ines",
+      "codigo": "WU_1_I"
+    },
+    {
+      "id": 2,
+      "zona": "Calentamiento",
+      "numero": 2,
+      "modelo": "Ines",
+      "codigo": "WU_2_I"
+    },
+    {
+      "id": 3,
+      "zona": "Calentamiento",
+      "numero": 3,
+      "modelo": "Ines",
+      "codigo": "WU_3_I"
+    },
+    {
+      "id": 4,
+      "zona": "Frente",
+      "numero": 1,
+      "modelo": "Ines",
+      "codigo": "FR_1_I"
+    },
+    {
+      "id": 5,
+      "zona": "Frente",
+      "numero": 2,
+      "modelo": "Ines",
+      "codigo": "FR_2_I"
+    },
+    {
+      "id": 6,
+      "zona": "Frente",
+      "numero": 3,
+      "modelo": "Ines",
+      "codigo": "FR_3_I"
+    },
+    {
+      "id": 7,
+      "zona": "Ojos",
+      "numero": 1,
+      "modelo": "Ines",
+      "codigo": "OJ_1_I"
+    },
+    {
+      "id": 8,
+      "zona": "Ojos",
+      "numero": 2,
+      "modelo": "Ines",
+      "codigo": "OJ_2_I"
+    },
+    {
+      "id": 9,
+      "zona": "Ojos",
+      "numero": 3,
+      "modelo": "Ines",
+      "codigo": "OJ_3_I"
+    },
+    {
+      "id": 10,
+      "zona": "Pómulos - Mejillas",
+      "numero": 1,
+      "modelo": "Ines",
+      "codigo": "ME_1_I"
+    },
+    {
+      "id": 11,
+      "zona": "Pómulos - Mejillas",
+      "numero": 2,
+      "modelo": "Ines",
+      "codigo": "ME_2_I"
+    },
+    {
+      "id": 12,
+      "zona": "Pómulos - Mejillas",
+      "numero": 3,
+      "modelo": "Ines",
+      "codigo": "ME_3_I"
+    },
+    {
+      "id": 13,
+      "zona": "Nasolabial",
+      "numero": 1,
+      "modelo": "Ines",
+      "codigo": "NL_1_I"
+    },
+    {
+      "id": 14,
+      "zona": "Nasolabial",
+      "numero": 2,
+      "modelo": "Ines",
+      "codigo": "NL_2_I"
+    },
+    {
+      "id": 15,
+      "zona": "Nasolabial",
+      "numero": 3,
+      "modelo": "Ines",
+      "codigo": "NL_3_I"
+    },
+    {
+      "id": 16,
+      "zona": "Labios",
+      "numero": 1,
+      "modelo": "Ines",
+      "codigo": "LA_1_I"
+    },
+    {
+      "id": 17,
+      "zona": "Labios",
+      "numero": 2,
+      "modelo": "Ines",
+      "codigo": "LA_2_I"
+    },
+    {
+      "id": 18,
+      "zona": "Labios",
+      "numero": 3,
+      "modelo": "Ines",
+      "codigo": "LA_3_I"
+    },
+    {
+      "id": 19,
+      "zona": "Cuello - Mentón - Papada",
+      "numero": 1,
+      "modelo": "Ines",
+      "codigo": "CU_1_I"
+    },
+    {
+      "id": 20,
+      "zona": "Cuello - Mentón - Papada",
+      "numero": 2,
+      "modelo": "Ines",
+      "codigo": "CU_2_I"
+    },
+    {
+      "id": 21,
+      "zona": "Cuello - Mentón - Papada",
+      "numero": 3,
+      "modelo": "Ines",
+      "codigo": "CU_3_I"
+    },
+    {
+      "id": 22,
+      "zona": "Enfriamiento",
+      "numero": 1,
+      "modelo": "Ines",
+      "codigo": "CD_1_I"
+    },
+    {
+      "id": 23,
+      "zona": "Enfriamiento",
+      "numero": 2,
+      "modelo": "Ines",
+      "codigo": "CD_2_I"
+    },
+    {
+      "id": 24,
+      "zona": "Enfriamiento",
+      "numero": 3,
+      "modelo": "Ines",
+      "codigo": "CD_3_I"
+    },
+    {
+      "id": 25,
+      "zona": "Calentamiento",
+      "numero": 1,
+      "modelo": "Ricardo",
+      "codigo": "WU_1_R"
+    },
+    {
+      "id": 26,
+      "zona": "Calentamiento",
+      "numero": 2,
+      "modelo": "Ricardo",
+      "codigo": "WU_2_R"
+    },
+    {
+      "id": 27,
+      "zona": "Calentamiento",
+      "numero": 3,
+      "modelo": "Ricardo",
+      "codigo": "WU_3_R"
+    },
+    {
+      "id": 28,
+      "zona": "Frente",
+      "numero": 1,
+      "modelo": "Ricardo",
+      "codigo": "FR_1_R"
+    },
+    {
+      "id": 29,
+      "zona": "Frente",
+      "numero": 2,
+      "modelo": "Ricardo",
+      "codigo": "FR_2_R"
+    },
+    {
+      "id": 30,
+      "zona": "Frente",
+      "numero": 3,
+      "modelo": "Ricardo",
+      "codigo": "FR_3_R"
+    },
+    {
+      "id": 31,
+      "zona": "Ojos",
+      "numero": 1,
+      "modelo": "Ricardo",
+      "codigo": "OJ_1_R"
+    },
+    {
+      "id": 32,
+      "zona": "Ojos",
+      "numero": 2,
+      "modelo": "Ricardo",
+      "codigo": "OJ_2_R"
+    },
+    {
+      "id": 33,
+      "zona": "Ojos",
+      "numero": 3,
+      "modelo": "Ricardo",
+      "codigo": "OJ_3_R"
+    },
+    {
+      "id": 34,
+      "zona": "Pómulos - Mejillas",
+      "numero": 1,
+      "modelo": "Ricardo",
+      "codigo": "ME_1_R"
+    },
+    {
+      "id": 35,
+      "zona": "Pómulos - Mejillas",
+      "numero": 2,
+      "modelo": "Ricardo",
+      "codigo": "ME_2_R"
+    },
+    {
+      "id": 36,
+      "zona": "Pómulos - Mejillas",
+      "numero": 3,
+      "modelo": "Ricardo",
+      "codigo": "ME_3_R"
+    },
+    {
+      "id": 37,
+      "zona": "Nasolabial",
+      "numero": 1,
+      "modelo": "Ricardo",
+      "codigo": "NL_1_R"
+    },
+    {
+      "id": 38,
+      "zona": "Nasolabial",
+      "numero": 2,
+      "modelo": "Ricardo",
+      "codigo": "NL_2_R"
+    },
+    {
+      "id": 39,
+      "zona": "Nasolabial",
+      "numero": 3,
+      "modelo": "Ricardo",
+      "codigo": "NL_3_R"
+    },
+    {
+      "id": 40,
+      "zona": "Labios",
+      "numero": 1,
+      "modelo": "Ricardo",
+      "codigo": "LA_1_R"
+    },
+    {
+      "id": 41,
+      "zona": "Labios",
+      "numero": 2,
+      "modelo": "Ricardo",
+      "codigo": "LA_2_R"
+    },
+    {
+      "id": 42,
+      "zona": "Labios",
+      "numero": 3,
+      "modelo": "Ricardo",
+      "codigo": "LA_3_R"
+    },
+    {
+      "id": 43,
+      "zona": "Cuello - Mentón - Papada",
+      "numero": 1,
+      "modelo": "Ricardo",
+      "codigo": "CU_1_R"
+    },
+    {
+      "id": 44,
+      "zona": "Cuello - Mentón - Papada",
+      "numero": 2,
+      "modelo": "Ricardo",
+      "codigo": "CU_2_R"
+    },
+    {
+      "id": 45,
+      "zona": "Cuello - Mentón - Papada",
+      "numero": 3,
+      "modelo": "Ricardo",
+      "codigo": "CU_3_R"
+    },
+    {
+      "id": 46,
+      "zona": "Enfriamiento",
+      "numero": 1,
+      "modelo": "Ricardo",
+      "codigo": "CD_1_R"
+    },
+    {
+      "id": 47,
+      "zona": "Enfriamiento",
+      "numero": 2,
+      "modelo": "Ricardo",
+      "codigo": "CD_2_R"
+    },
+    {
+      "id": 48,
+      "zona": "Enfriamiento",
+      "numero": 3,
+      "modelo": "Ricardo",
+      "codigo": "CD_3_R"
+    }
+   ]

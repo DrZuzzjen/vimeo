@@ -1,0 +1,49 @@
+id,zona,numero,modelo,codigo
+1,Calentamiento,1,Ines,WU_1_I
+2,Calentamiento,2,Ines,WU_2_I
+3,Calentamiento,3,Ines,WU_3_I
+4,Frente,1,Ines,FR_1_I
+5,Frente,2,Ines,FR_2_I
+6,Frente,3,Ines,FR_3_I
+7,Ojos,1,Ines,OJ_1_I
+8,Ojos,2,Ines,OJ_2_I
+9,Ojos,3,Ines,OJ_3_I
+10,Pómulos - Mejillas,1,Ines,ME_1_I
+11,Pómulos - Mejillas,2,Ines,ME_2_I
+12,Pómulos - Mejillas,3,Ines,ME_3_I
+13,Nasolabial,1,Ines,NL_1_I
+14,Nasolabial,2,Ines,NL_2_I
+15,Nasolabial,3,Ines,NL_3_I
+16,Labios,1,Ines,LA_1_I
+17,Labios,2,Ines,LA_2_I
+18,Labios,3,Ines,LA_3_I
+19,Cuello - Mentón - Papada,1,Ines,CU_1_I
+20,Cuello - Mentón - Papada,2,Ines,CU_2_I
+21,Cuello - Mentón - Papada,3,Ines,CU_3_I
+22,Enfriamiento,1,Ines,CD_1_I
+23,Enfriamiento,2,Ines,CD_2_I
+24,Enfriamiento,3,Ines,CD_3_I
+25,Calentamiento,1,Ricardo,WU_1_R
+26,Calentamiento,2,Ricardo,WU_2_R
+27,Calentamiento,3,Ricardo,WU_3_R
+28,Frente,1,Ricardo,FR_1_R
+29,Frente,2,Ricardo,FR_2_R
+30,Frente,3,Ricardo,FR_3_R
+31,Ojos,1,Ricardo,OJ_1_R
+32,Ojos,2,Ricardo,OJ_2_R
+33,Ojos,3,Ricardo,OJ_3_R
+34,Pómulos - Mejillas,1,Ricardo,ME_1_R
+35,Pómulos - Mejillas,2,Ricardo,ME_2_R
+36,Pómulos - Mejillas,3,Ricardo,ME_3_R
+37,Nasolabial,1,Ricardo,NL_1_R
+38,Nasolabial,2,Ricardo,NL_2_R
+39,Nasolabial,3,Ricardo,NL_3_R
+40,Labios,1,Ricardo,LA_1_R
+41,Labios,2,Ricardo,LA_2_R
+42,Labios,3,Ricardo,LA_3_R
+43,Cuello - Mentón - Papada,1,Ricardo,CU_1_R
+44,Cuello - Mentón - Papada,2,Ricardo,CU_2_R
+45,Cuello - Mentón - Papada,3,Ricardo,CU_3_R
+46,Enfriamiento,1,Ricardo,CD_1_R
+47,Enfriamiento,2,Ricardo,CD_2_R
+48,Enfriamiento,3,Ricardo,CD_3_R

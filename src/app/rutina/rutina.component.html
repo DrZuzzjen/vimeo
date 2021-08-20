@@ -1,0 +1,16 @@
+<p>rutina works!</p>
+<ul>
+    <button (click)="buscarRutina()" type="button" class="btn btn-primary">Primary</button>
+  <li *ngFor='let rutina of rutinas'>
+      {{rutina.zona.indexOf('Ojos')}}
+    <span>ID: {{rutina.id}}
+      <p> Zona: {{rutina.zona}}</p>
+      <p> Nivel: {{rutina.numero}} </p>
+      <p> Modelo: {{rutina.modelo}}</p>
+      <p>Codigo: {{rutina.codigo}} </p>
+    </span>
+  </li>
+
+</ul>
+
+
