@@ -1,7 +1,9 @@
-<p>rutina works!</p>
 <ul>
-    <button (click)="buscarRutina()" type="button" class="btn btn-primary">Primary</button>
+  <button (click)="conectarseAVimeo()">Conectarse</button>
+  <hr>
+    <button (click)="buscarRutina()" type="button" class="btn btn-primary">Generar rutina</button>
   <li *ngFor='let rutina of rutinas'>
+    <hr>
       {{rutina.zona.indexOf('Ojos')}}
     <span>ID: {{rutina.id}}
       <p> Zona: {{rutina.zona}}</p>
